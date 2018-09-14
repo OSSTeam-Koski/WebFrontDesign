@@ -1,0 +1,53 @@
+.blueSqare{
+    background : linear-gradient(45deg, #6DC4A9, #6D79C4);
+    width:1080px;
+    height:847px;
+}
+
+.blueCircle{        /*Analyze Circle*/
+    position: absolute;
+        top:337px;
+        left: 50%;
+        transform: translateX(-50%);
+    /*img's size*/
+    width: 919px;
+    height: 948px;
+     z-index: 1;
+     animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite
+}
+@keyframes spin
+{
+    0%{transform : rotate(0);}
+    100%{transform: rotate(360deg);}
+}
+
+.analyzeIcon
+{
+    position: absolute;
+    top: 644px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 366px;
+    height: 366px;
+    z-index: 2;
+}
+
+.text
+{
+    position: absolute;
+    top: 1408px;
+    margin-left: 300px;
+    font-family: "NanumSquareRound";
+    font-size: 88px;
+}
+
+.underbar
+{
+    position: absolute;
+    bottom: 0px;
+    background: linear-gradient(45deg, #6DBDC4,#6D9BC4);
+    width: 1080px;
+    height: 135px;
+}

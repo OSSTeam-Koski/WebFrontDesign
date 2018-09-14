@@ -1,0 +1,72 @@
+body{
+    margin: 0%;
+}
+
+.pinkSqare{
+    background : linear-gradient(45deg, #FFBC82, #FF6D6D);      /*Gradient*/
+    width:1080px;
+    height:847px;
+}
+
+.pinkCircle{        /*Analyze Circle*/
+    position: absolute;
+        top:337px;
+        left:75px;
+    /*img's size*/
+    width: 930px;
+    height: 930px;
+     z-index: 1; 
+     
+}
+
+.checkIcon
+{
+    position: absolute;
+        top: 636px;
+        left: 50%;
+        transform:translateX(-50%);
+    width:395px;
+    height: 421px;
+    z-index: 2;
+}
+
+.text
+{
+    margin-left: 128px;
+    position: absolute;
+        top: 1408px;
+
+        font-family: "NanumSquareRound";
+    font-size: 88px;
+}
+
+.recommendButton
+{
+    position: absolute;
+    top : 1578px;
+    left: 240px;
+    font-family: "NanumSquareRound";
+    font-size: 70px; 
+    width: 400px;    height: 78px;
+    padding: 31px 109px;
+    /*border*/
+    border: 7px solid #F88E82;
+    border-radius: 68px;
+    
+}
+
+.recommendButton:hover
+{
+    background-color: #F88E82;
+    color: #ffffff; 
+}
+
+.underbar
+{
+    position: absolute;
+        bottom: 0px;
+
+    background: linear-gradient(45deg, #FF7373,#FF4B4B); 
+    width: 1080px;
+    height: 135px;
+}
