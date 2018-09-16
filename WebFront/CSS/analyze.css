@@ -1,52 +1,85 @@
+body {
+    margin: 0;
+}
+
 .blueSqare{
     background : linear-gradient(45deg, #6DC4A9, #6D79C4);
-    width:1080px;
     height:847px;
 }
 
 .blueCircle{        /*Analyze Circle*/
-    position: absolute;
-        top:337px;
-        left: 75px;
     /*img's size*/
     width: 920px;
     height: 920px;
-     z-index: 1;
-     animation-name: spin;
+    z-index: 1;
+    animation-name: spin;
     animation-duration: 3s;
     animation-iteration-count: infinite
 }
+
 @keyframes spin
 {
     0%{transform : rotate(0);}
     100%{transform: rotate(360deg);}
 }
 
-.analyzeIcon
+.container {
+    position: relative;
+    height: 920px;
+}
+
+.loading-circle {
+    position: absolute;
+    display: inline-block;
+    background: transparent;
+    width: 920px;
+    height: 920px;
+    border-radius: 920px;
+    background: -webkit-linear-gradient(left top, #6DBDC4 0%, #6D9BC4 100%);
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite
+}
+
+.icon-background
 {
     position: absolute;
-    top: 644px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 366px;
-    height: 366px;
-    z-index: 2;
+    top: 460px;
+    left: 460px;
+    margin-left: -350px;
+    margin-top: -350px;
+    width: 700px;
+    height: 700px;
+    background: #fff;
+    border-radius: 700px;
+}
+
+.icon {
+    background-image: url('../icon/analysis.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    position: absolute;
+    top: 460px;
+    left: 460px;
+    margin-left: -300px;
+    margin-top: -300px;
+    width: 600px;
+    height: 600px;
+    padding: 150px;
+    border-radius: 600px;
 }
 
 .text
 {
-    position: absolute;
-    top: 1408px;
-    margin-left: 300px;
+    box-sizing: border-box;
     font-family: "NanumSquareRound";
     font-size: 88px;
-}
-
-.underbar
-{
-    position: absolute;
-    bottom: 0px;
-    background: linear-gradient(45deg, #6DBDC4,#6D9BC4);
-    width: 1080px;
-    height: 135px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #6DBDC4,#6D9BC4);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 125px solid transparent;
+    border-image-slice: 1;
 }
