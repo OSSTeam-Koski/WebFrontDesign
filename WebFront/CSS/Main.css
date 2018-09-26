@@ -1,0 +1,29 @@
+
+body {
+    margin: 0;
+}
+
+  #koskiLogo{
+    margin: 59px 0px 59px 0px;     /*aligen-items:center가 되지 않음 수정해야함*/
+    text-align: center;
+}
+
+ #koskiLogo img {
+    width: 356px;
+    height: 137px;
+}
+
+ .yellowbox{     /*노랑 박스*/
+    background-color: #FDBE57;
+    height: 183.24px;
+}
+
+ #bluebox{
+    background-color:#6DA4B4; 
+    height: 88.29px;
+}
+
+ #redbox{
+    background-color:#FF8C75; 
+    height: 88.29px;
+} 

@@ -4,17 +4,17 @@ body{
 
 .pinkSqare{
     background : linear-gradient(45deg, #FFBC82, #FF6D6D);      /*Gradient*/
-    width:1080px;
-    height:847px;
+    height:353px;
 }
 
 .pinkCircle{        /*Analyze Circle*/
     position: absolute;
-        top:337px;
-        left:75px;
+        top:141px;
+        left: 50%;
+        transform:translateX(-50%);
     /*img's size*/
-    width: 930px;
-    height: 930px;
+    width: 400px;
+    height: 400px;
      z-index: 1; 
      
 }
@@ -22,37 +22,36 @@ body{
 .checkIcon
 {
     position: absolute;
-        top: 636px;
+        top: 262px;
         left: 50%;
         transform:translateX(-50%);
-    width:395px;
-    height: 421px;
+    width:154x;
+    height: 175px;
     z-index: 2;
 }
 
 .text
 {
-    margin-left: 128px;
+    margin-left: 76px;
     position: absolute;
-        top: 1408px;
+        top: 586.7px;
 
         font-family: "NanumSquareRound";
-    font-size: 88px;
+    font-size: 35px;
 }
 
 .recommendButton
 {
     position: absolute;
-    top : 1578px;
-    left: 240px;
+    top : 657px;
+    left: 50%;
+    transform:translate(-50%);
     font-family: "NanumSquareRound";
-    font-size: 70px; 
-    width: 400px;    height: 78px;
-    padding: 31px 109px;
+    font-size: 28px; 
+    padding: 10px 25px;
     /*border*/
-    border: 7px solid #F88E82;
+    border: 5px solid #F88E82;
     border-radius: 68px;
-    
 }
 
 .recommendButton:hover
@@ -65,8 +64,7 @@ body{
 {
     position: absolute;
         bottom: 0px;
-
     background: linear-gradient(45deg, #FF7373,#FF4B4B); 
-    width: 1080px;
-    height: 135px;
+    height: 56px;
+    width: 480px;
 }
